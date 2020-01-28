@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="139.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditMarks">
+   <children>
+      <Label layoutX="67.0" layoutY="48.0" prefHeight="27.0" prefWidth="89.0" text="Оценка">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textMark" layoutX="170.0" layoutY="48.0" />
+      <Button fx:id="butEdit" layoutX="153.0" layoutY="98.0" mnemonicParsing="false" text="Изменить" />
+      <Label fx:id="errorMark" alignment="CENTER" layoutX="76.0" layoutY="22.0" prefHeight="17.0" prefWidth="234.0" textAlignment="CENTER" textFill="RED" />
+   </children>
+</AnchorPane>

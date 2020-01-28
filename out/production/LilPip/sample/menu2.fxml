@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="467.0" prefWidth="742.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu2">
+    <children>
+      <Pane layoutX="-3.0" layoutY="-2.0" prefHeight="470.0" prefWidth="261.0" style="-fx-background-color: #c6fbfe; -fx-border-color: #000000;" />
+        <ImageView fitHeight="344.0" fitWidth="307.0" layoutX="-64.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Apply/Sveta5.jpg" />
+            </image>
+        </ImageView>
+      <Button fx:id="buttonInfo" layoutX="37.0" layoutY="133.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <Button fx:id="buttonNews" layoutX="35.0" layoutY="176.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <Button fx:id="buttonCalen" layoutX="36.0" layoutY="219.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <Button fx:id="buttonBals" layoutX="35.0" layoutY="266.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <WebView fx:id="webView" layoutX="258.0" prefHeight="468.0" prefWidth="484.0" />
+      <ProgressIndicator fx:id="progres" layoutX="484.0" layoutY="228.0" progress="0.0" />
+      <Label fx:id="errorText" alignment="CENTER" layoutX="335.0" layoutY="202.0" prefHeight="17.0" prefWidth="330.0" textFill="RED" />
+    </children>
+</AnchorPane>

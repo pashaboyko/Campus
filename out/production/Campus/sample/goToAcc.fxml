@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="466.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GoToAcc">
+   <children>
+      <ImageView fitHeight="455.0" fitWidth="485.0" layoutX="73.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Apply/Sveta2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonIn" layoutX="217.0" layoutY="336.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="167.0" style="-fx-background-color: #06bebe;" text="Войти" textOverrun="CLIP" />
+      <Button fx:id="biuttonReg" layoutX="250.0" layoutY="398.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="102.0" style="-fx-background-color: #06bebe;" text="Создать" textOverrun="CLIP" />
+      <TextField fx:id="logText" alignment="CENTER" layoutX="217.0" layoutY="234.0" promptText="Login" />
+      <Label fx:id="textError" alignment="CENTER" layoutX="195.0" layoutY="443.0" textFill="RED" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="195.0" />
+      <PasswordField fx:id="PawText" alignment="CENTER" layoutX="218.0" layoutY="283.0" promptText="Password" />
+   </children>
+</AnchorPane>

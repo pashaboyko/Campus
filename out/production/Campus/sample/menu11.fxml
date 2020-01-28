@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="468.0" prefWidth="727.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu11">
+    <children>
+      <ImageView fx:id="imAcc" fitHeight="120.0" fitWidth="127.0" layoutX="434.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="434.0" AnchorPane.topAnchor="55.0">
+         <image>
+            <Image url="@0.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="468.0" fitWidth="507.0" layoutX="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Apply/Sveta344.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="-3.0" layoutY="-2.0" prefHeight="470.0" prefWidth="261.0" style="-fx-background-color: #c6fbfe; -fx-border-color: #000000;" />
+        <ImageView fitHeight="344.0" fitWidth="307.0" layoutX="-64.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Apply/Sveta11.jpg" />
+            </image>
+        </ImageView>
+      <Button fx:id="buttonInfo" layoutX="37.0" layoutY="133.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <Button fx:id="buttonNews" layoutX="35.0" layoutY="176.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <Button fx:id="buttonCalen" layoutX="36.0" layoutY="219.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <Button fx:id="buttonBals" layoutX="35.0" layoutY="266.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="172.0" text="Button" />
+      <Label fx:id="LabelNameSurname" alignment="CENTER" layoutX="369.0" layoutY="230.0" prefHeight="28.0" prefWidth="252.0" text="Name Surname" textFill="#3c4350" AnchorPane.leftAnchor="369.0" AnchorPane.rightAnchor="106.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelLogin" alignment="CENTER" layoutX="385.0" layoutY="280.0" prefHeight="28.0" prefWidth="219.0" textFill="#3c4350" AnchorPane.leftAnchor="385.0" AnchorPane.rightAnchor="123.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelDate" alignment="CENTER" layoutX="388.0" layoutY="328.0" prefHeight="28.0" prefWidth="219.0" textFill="#3c4350">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labelgroup" alignment="CENTER" layoutX="385.0" layoutY="377.0" prefHeight="28.0" prefWidth="219.0" textFill="#3c4350">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelNum" alignment="CENTER" layoutX="386.0" layoutY="426.0" prefHeight="28.0" prefWidth="219.0" textFill="#3c4350">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="52.0" layoutX="670.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Apply/sveta222.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttLock" layoutX="667.0" layoutY="14.0" mnemonicParsing="false" opacity="0.0" prefHeight="32.0" prefWidth="39.0" text="Button" />
+    </children>
+</AnchorPane>
